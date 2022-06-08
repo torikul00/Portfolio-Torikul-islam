@@ -1,9 +1,19 @@
 
+import { Routes, Route } from 'react-router-dom'
+import Home from './components/Home/Home'
+import ContactMe from './components/ContactMe/ContactMe'
+
 function App() {
   return (
-    <div className="App">
-      <h1>hello</h1>
-    </div>
+    <>
+      <Routes>
+      <Route path='/' element={<Home />} />
+      <Route path='contactMe' element={<ContactMe/>} />
+
+      </Routes>
+    
+    
+    </>
   );
 }
 
