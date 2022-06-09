@@ -11,7 +11,6 @@ const Projects = () => {
                 <div className="single-project">
                     <div>
                         <img width='500px' src={MontageCarBanner} alt="" />
-
                     </div>
                     <div className="project-details">
                         <h2>Montage Car</h2>
