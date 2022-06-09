@@ -1,0 +1,43 @@
+.projects-section-container {
+    width: 100%;
+    padding: 20px 0px;
+    background-color: #6344C6;
+}
+.projects-section-container h1{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 400;
+    padding: 25px 0px;
+}
+.projects-container {
+    width: 80%;
+   
+    background-color: white;
+    margin: 0px auto;
+}
+.single-project{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 30px 0px;
+  
+}
+.project-details{
+    padding:10px;
+}
+.project-details button{
+    padding: 10px 20px;
+    background-color:  #6344C6;
+    margin-right: 15px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    color: white;
+    border: none;
+}
+.project-details a {
+    color: white;
+    text-decoration: none;
+}

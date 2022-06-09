@@ -1,7 +1,8 @@
 import React from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import './Header.css'
-import { BsFillArrowUpRightSquareFill,BsFillArrowRightSquareFill } from 'react-icons/bs';
+import { BsFillArrowUpRightSquareFill, BsFillArrowRightSquareFill } from 'react-icons/bs';
+import { FaFacebookSquare, FaLinkedin, FaInstagramSquare } from 'react-icons/fa';
 
 const Home = () => {
     const navigate = useNavigate()
@@ -15,7 +16,7 @@ const Home = () => {
                     <Link to="/projects">Projects</Link>
                 </div>
                 <div>
-                    <button onClick={()=> navigate('/contactMe')} className='contact-button'>Contact Me</button>
+                    <button onClick={() => navigate('/contactMe')} className='contact-button'>Contact Me</button>
                 </div>
             </nav>
 
