@@ -1,0 +1,71 @@
+header{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../../images/banner.png);
+    background-size: cover;
+   background-position-y: -50px;
+   position: relative;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 25px;
+}
+.logo{
+    color: white;
+    letter-spacing: 1px;
+}
+.links a {
+    color: white;
+    text-decoration: none;
+    padding: 0px 20px;
+}
+.contact-button{
+    padding: 8px 20px;
+    background-color: white;
+    cursor: pointer;
+    border-radius: 5px;
+
+}
+.title-container{
+    width: 500px;
+    color: white;
+    position: absolute;
+    left: 20%;
+    top: 30%;
+}
+.title-container h1{
+    margin: 12px 0px;
+    font-size: 60px;
+    font-weight: 500;
+}
+.title-container h2{
+
+}
+.title-container p {
+    font-size: 15px;
+    margin: 10px 0px;
+
+}
+.resume-button{
+    padding: 10px 20px;
+    background-color:  #6344C6;
+    margin-right: 15px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+   
+}
+.resume-link{
+    letter-spacing: 1px;
+    color: white;
+    text-decoration: none;
+}
+.projects-link{
+    color: white;
+    text-decoration: none;
+}
+.pdf-icon{
+    color: white;
+  
+}
