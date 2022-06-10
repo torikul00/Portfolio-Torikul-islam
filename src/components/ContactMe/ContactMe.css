@@ -3,3 +3,66 @@
     height: 100vh;
     background-color: #262439;
 }
+.contact-form {
+    width: 400px;
+    height: 400px;
+    background-color: white;
+    margin: 0px auto;
+    margin-top: 80px;
+    padding: 0px 50px;
+}
+.form-title{
+    text-align: center;
+    padding-top: 30px;
+}
+.contact-form label{
+    display: block;
+    
+}
+.contact-form input {
+    width: 100%;
+    padding: 5px;
+}
+.contact-form textarea{
+    display: block;
+    width: 100%;
+    padding:5px;     
+    height:60px;
+   
+}
+.thanks-message{
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+    font-weight: 500;
+}
+.back-button{
+    display: block;
+    cursor: pointer;
+    margin: 0px auto;
+    padding: 10px 30px;
+    background-color: #6344C6;
+    color: white;
+    margin-top: 10px;
+    border-radius: 5px;
+
+}
+.sent-button{
+    padding: 10px 35px;
+    background-color: #6344C6;
+    color: white;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 17px;
+    position: relative;
+
+}
+.send-icon{
+    color: white;
+    font-size: 19px;
+    position: absolute;
+    top: 14px;
+    left: 79px;
+}

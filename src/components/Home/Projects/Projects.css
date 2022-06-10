@@ -12,7 +12,7 @@
 }
 .projects-container {
     width: 80%;
-   
+    
     background-color: white;
     margin: 0px auto;
 }
@@ -25,7 +25,10 @@
   
 }
 .project-details{
-    padding:10px;
+    padding:20px;
+}
+.project-details p {
+    padding: 5px 0px;
 }
 .project-details button{
     padding: 10px 20px;

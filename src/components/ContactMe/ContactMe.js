@@ -1,17 +1,28 @@
 import { useForm, ValidationError } from '@formspree/react';
-import React, { useState } from 'react';
+import { BiSend } from 'react-icons/bi';
+import { useNavigate } from 'react-router-dom';
 import Navbar from '../../components/Navbar/Navbar'
 import './ContactMe.css'
 const ContactMe = () => {
     const [state, handleSubmit] = useForm("mknyeryb");
+    const navigate = useNavigate()
+
     if (state.succeeded) {
-        return <p>Thanks for joining!</p>;
+        return <div className='contact-container'>
+            <Navbar />
+           
+            <h1 className='thanks-message'>Thanks for texting me ! </h1>
+            <h3 className='thanks-message'>I will reply to your message as soon as possible </h3>
+            <button onClick={()=>navigate('/')} className='back-button'>Back to Home</button>
+        </div>
     }
+
     return (
         <div className='contact-container'>
             <Navbar />
             <div>
-                <form onSubmit={handleSubmit}>
+                <form className='contact-form' onSubmit={handleSubmit}>
+                    <h1 className='form-title'>GET IN TOUCH</h1>
                     <label htmlFor="name">
                         Name
                     </label>
@@ -33,7 +44,9 @@ const ContactMe = () => {
                         field="email"
                         errors={state.errors}
                     />
+                    <label htmlFor="message">Message</label>
                     <textarea
+
                         id="message"
                         name="message"
                     />
@@ -42,8 +55,8 @@ const ContactMe = () => {
                         field="message"
                         errors={state.errors}
                     />
-                    <button type="submit" disabled={state.submitting}>
-                        Send
+                    <button className='sent-button' type="submit" disabled={state.submitting}>
+                        Send <BiSend className='send-icon' />
                     </button>
                 </form>
             </div>

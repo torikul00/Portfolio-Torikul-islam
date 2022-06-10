@@ -5,7 +5,7 @@ const Navbar = () => {
     const navigate = useNavigate()
     return (
         <nav>
-            <div><h1 className='logo'>TORIKUL ISLAM</h1></div>
+            <div ><h1 onClick={() => navigate('/')} className='logo'>TORIKUL ISLAM</h1></div>
             <div className='links'>
                 <Link to="/">Home</Link>
                 <Link to="/education">Education</Link>

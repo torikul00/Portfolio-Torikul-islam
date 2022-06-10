@@ -1,0 +1,31 @@
+[
+    {
+        "name": "Montage Car",
+        "description": "Montage Car is buying cart parts website. When normal users log in, They Can see Dashboard route. On the dashboard route, users can feedback on our Product and order our products. After order they can pay with a card. When admin login ,admin can manage all orders , Delete users , addproducts ,make admin , etc.",
+        "technology": "React , React router , CSS , react-firebase-hooks , JSX , Firebase , Stripe ,",
+        "image":"./images/montage-car-banner.jpg",
+        "live_link":"https://montage-car.web.app/",
+        "client_code_link" : "https://github.com/torikul00/Montage-Car",
+        "server_code_link" : "https://github.com/torikul00/Montage-Car-Server"
+    },
+  
+    {
+        "name": "Fruits Buddy",
+        "description": "Fruits Buddy is a simple inventory website . Users can add products andupdate product quantity. On Manage All Items page users can updateProducts and delete products .There are some blogs on the blog page.",
+        "technology": "React , React router , CSS , react-firebase-hooks , JSX , Firebase , Stripe , Express js,Node JS",
+        "image":"./images/fruits-buddy-banner.jpg",
+        "live_link":"https://fruits-buddy.web.app/",
+        "client_code_link" : "https://github.com/torikul00/Fruits-Buddy-Client",
+        "server_code_link" : "https://github.com/torikul00/Montage-Car-Server"
+    },
+    {
+        "name": "Electrical Galaxy",
+        "description": "Electrical Galaxy is a simple website. Users can sign up/login on thisWebsite. Without login, the user can not access the product",
+        "technology": "React , React router , CSS , react-firebase-hooks , JSX , Firebase",
+
+        "image":"./images/electrical-galaxy-banner.jpg",
+        "live_link":"https://electrical-galaxy.web.app/",
+        "client_code_link" : "https://github.com/torikul00/Electrical-Galaxy"
+        
+    }
+]
