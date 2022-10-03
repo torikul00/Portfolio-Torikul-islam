@@ -1,6 +1,6 @@
 import React from 'react';
 import './Main.css'
-import { BsLinkedin, BsGithub, BsFacebook, BsStackOverflow } from 'react-icons/bs'
+import { BsLinkedin, BsGithub, BsFacebook, BsStackOverflow,BsFillChatLeftTextFill } from 'react-icons/bs'
 const Main = () => {
     return (
         <>
@@ -20,6 +20,7 @@ const Main = () => {
                 </div>
             </nav>
             <main>
+
                 <header>
                     <div className="wrapper">
                         <div className='content'>
@@ -36,6 +37,9 @@ const Main = () => {
                     </div>
                 </header>
             </main>
+            <div className="chat">
+                <BsFillChatLeftTextFill className='chat-icon' />
+            </div>
         </>
     );
 };
