@@ -1,0 +1,11 @@
+.blog-container{
+
+}
+.blog-container img {
+    width: 35%;
+    display: block;
+    margin: 0px auto;
+}
+.blog-container h1 {
+    text-align: center;
+}
