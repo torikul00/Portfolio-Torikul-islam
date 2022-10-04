@@ -1,6 +1,6 @@
 import React from 'react';
 import './Main.css'
-import { BsLinkedin, BsGithub, BsFacebook, BsStackOverflow,BsFillChatLeftTextFill } from 'react-icons/bs'
+import { BsLinkedin, BsGithub, BsFacebook, BsStackOverflow, BsFillChatLeftTextFill } from 'react-icons/bs'
 const Main = () => {
     return (
         <>
@@ -16,7 +16,7 @@ const Main = () => {
                     <a href="">ABOUT</a>
                     <a href="">PROJECT</a>
                     <a href="">CONTACT</a>
-                    <button className='resume-button'>GET RESUME</button>
+                   <a target='blank' href="https://drive.google.com/file/d/1yixxhzTJXkMvLhyyWtxX88osKB1tl_Sg/view"> <button className='resume-button'>CHECK RESUME</button></a>
                 </div>
             </nav>
             <main>
@@ -36,6 +36,13 @@ const Main = () => {
                         <a target='blank' href="https://stackoverflow.com/users/18026868/torikul-islam">  <BsStackOverflow className='social' /></a>
                     </div>
                 </header>
+                <section className='about-container'>
+                <div className="about-content">
+                <h1>  ABOUT ME</h1>
+                  <div className="line"></div>
+                  <p>Here you will find more information about me, what I do, and my current skills mostly in terms of programming and technology</p>
+                </div>
+                </section>
             </main>
             <div className="chat">
                 <BsFillChatLeftTextFill className='chat-icon' />

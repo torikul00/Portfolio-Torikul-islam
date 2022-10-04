@@ -5,7 +5,10 @@ nav {
     width: 100%;
     height: 80px;
     padding: 0px 50px;
-
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    background-color: white;
 }
 
 .logo-container {
@@ -18,7 +21,7 @@ nav {
     margin-left: 10px;
     font-weight: 800;
     font-size: 18px;
-    letter-spacing: 2px;
+    letter-spacing: 1.2px;
     color: #333;
 }
 
@@ -35,14 +38,17 @@ nav {
 .navLinks a {
     text-decoration: none;
     margin: 0px 20px;
-    font-size: 15;
+    font-size: 17px;
     color: #333;
     text-transform: uppercase;
     letter-spacing: 1px;
     font-weight: 700;
+    transition: 0.2s;
 
 }
-
+.navLinks a:hover{
+    color: #288BA8;
+}
 .resume-button {
     padding: 8px 20px;
     border: none;
@@ -51,6 +57,7 @@ nav {
     border-radius: 4px;
     cursor: pointer;
     font-weight: 500;
+    font-size: 17px;
 }
 
 /* navbar end here */
@@ -99,7 +106,7 @@ header {
 
 .project-button {
     width: 200px;
-    height: 50px;
+    height: 60px;
     border: none;
     background-color: #288BA8;
     color: white;
@@ -109,6 +116,10 @@ header {
     margin: 15px 0px;
     font-weight: 600;
     letter-spacing: 1.4px;
+    transition: 0.3s;
+}
+.project-button:hover{
+    transform: translateY(-5px);
 }
 
 .social-icons {
@@ -149,9 +160,9 @@ header {
     align-items: center;
     cursor: pointer;
     transition: 0.3s;
-    box-shadow: 0px -1px 385px -22px rgba(0,0,0,1);
-    -webkit-box-shadow: 0px -1px 385px -22px rgba(0,0,0,1);
-    -moz-box-shadow: 0px -1px 385px -22px rgba(0,0,0,1);
+    box-shadow: 0px -1px 385px -22px rgba(0, 0, 0, 1);
+    -webkit-box-shadow: 0px -1px 385px -22px rgba(0, 0, 0, 1);
+    -moz-box-shadow: 0px -1px 385px -22px rgba(0, 0, 0, 1);
 }
 
 .chat-icon {
@@ -161,4 +172,36 @@ header {
 
 .chat:hover {
     transform: scale(1.05);
+}
+
+.about-container{
+    width: 100%;
+    padding: 90px;
+}
+.about-content{
+    width: 70%;
+    margin: 0px auto;
+}
+.about-container h1{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+   
+}
+.line{
+    width: 50px;
+    height: 4px;
+    background-color: #288BA8;
+    margin: 0px auto;
+    border-radius: 3px;
+
+}
+.about-container p {
+    text-align: center;
+    margin: 20px auto;
+    color: #333;
+    font-size: 19px;
+    line-height: 40px;
+    
 }
