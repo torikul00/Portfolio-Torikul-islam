@@ -1,7 +1,10 @@
 import React from 'react';
 import './Main.css'
 import { BsLinkedin, BsGithub, BsFacebook, BsStackOverflow, BsFillChatLeftTextFill } from 'react-icons/bs'
+import { useNavigate } from 'react-router-dom';
 const Main = () => {
+
+    const navigate = useNavigate()
     return (
         <>
             <nav>
@@ -83,20 +86,24 @@ const Main = () => {
                             <img src="https://i.ibb.co/fq6pB0W/Mac-Book-Air-near-the-white-wall-Topgear.png" alt="" />
                         </div>
                         <div className="single-project-content">
-                            <h2>TopGear Perform</h2>
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum, ratione mollitia autem distinctio a culpa excepturi adipisci saepe est. Minus aliquam sit vitae cum commodi dicta minima sed distinctio temporibus velit suscipit cupiditate laudantium tempore rerum accusamus id aperiam deserunt enim dolor doloremque odit nostrum, obcaecati amet. Tenetur, vero alias.</p>
-                            <button className='case-study-button'>Case Study</button>
+                            <div>
+                                <h2>TopGear Perform</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum, ratione mollitia autem distinctio a culpa excepturi adipisci saepe est. Minus aliquam sit vitae cum commodi dicta minima sed distinctio temporibus velit suscipit cupiditate laudantium tempore rerum accusamus id aperiam deserunt enim dolor doloremque odit nostrum, obcaecati amet. Tenetur, vero alias.</p>
+                                <button onClick={() => navigate('/project-1')} className='case-study-button'>Case Study</button>
+                            </div>
                         </div>
                     </div>
-                    
+
                     <div className="projects-wrapper">
                         <div className="single-project">
                             <img src="https://i.ibb.co/fCF2TM9/Woman-using-her-laptop-in-the-office-Montage-car.png" alt="" />
                         </div>
                         <div className="single-project-content">
-                            <h2>Montage Car</h2>
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum, ratione mollitia autem distinctio a culpa excepturi adipisci saepe est. Minus aliquam sit vitae cum commodi dicta minima sed distinctio temporibus velit suscipit cupiditate laudantium tempore rerum accusamus id aperiam deserunt enim dolor doloremque odit nostrum, obcaecati amet. Tenetur, vero alias.</p>
-                            <button className='case-study-button'>Case Study</button>
+                            <div>
+                                <h2>Montage Car</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum, ratione mollitia autem distinctio a culpa excepturi adipisci saepe est. Minus aliquam sit vitae cum commodi dicta minima sed distinctio temporibus velit suscipit cupiditate laudantium tempore rerum accusamus id aperiam deserunt enim dolor doloremque odit nostrum, obcaecati amet. Tenetur, vero alias.</p>
+                                <button onClick={() => navigate('/project-2')} className='case-study-button'>Case Study</button>
+                            </div>
                         </div>
                     </div>
                     <div className="projects-wrapper">
@@ -104,9 +111,11 @@ const Main = () => {
                             <img src="https://i.ibb.co/5hqHSm0/Man-using-Acer-laptop-while-sitting-on-the-floor-Fruits-buddy.png" alt="" />
                         </div>
                         <div className="single-project-content">
-                            <h2>Fruits Buddy</h2>
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum, ratione mollitia autem distinctio a culpa excepturi adipisci saepe est. Minus aliquam sit vitae cum commodi dicta minima sed distinctio temporibus velit suscipit cupiditate laudantium tempore rerum accusamus id aperiam deserunt enim dolor doloremque odit nostrum, obcaecati amet. Tenetur, vero alias.</p>
-                            <button className='case-study-button'>Case Study</button>
+                            <div>
+                                <h2>Fruits Buddy</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum, ratione mollitia autem distinctio a culpa excepturi adipisci saepe est. Minus aliquam sit vitae cum commodi dicta minima sed distinctio temporibus velit suscipit cupiditate laudantium tempore rerum accusamus id aperiam deserunt enim dolor doloremque odit nostrum, obcaecati amet. Tenetur, vero alias.</p>
+                                <button onClick={() => navigate('/project-3')} className='case-study-button'>Case Study</button>
+                            </div>
                         </div>
                     </div>
                     <div className="projects-wrapper">
@@ -114,10 +123,17 @@ const Main = () => {
                             <img src="https://i.ibb.co/L8fQ6dJ/Mac-Book-Air-near-the-white-wall-Electrical-galaxy.png" alt="" />
                         </div>
                         <div className="single-project-content">
-                            <h2>Electrical Galaxy</h2>
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum, ratione mollitia autem distinctio a culpa excepturi adipisci saepe est. Minus aliquam sit vitae cum commodi dicta minima sed distinctio temporibus velit suscipit cupiditate laudantium tempore rerum accusamus id aperiam deserunt enim dolor doloremque odit nostrum, obcaecati amet. Tenetur, vero alias.</p>
-                            <button className='case-study-button'>Case Study</button>
+                            <div>
+                                <h2>Electrical Galaxy</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum, ratione mollitia autem distinctio a culpa excepturi adipisci saepe est. Minus aliquam sit vitae cum commodi dicta minima sed distinctio temporibus velit suscipit cupiditate laudantium tempore rerum accusamus id aperiam deserunt enim dolor doloremque odit nostrum, obcaecati amet. Tenetur, vero alias.</p>
+                                <button onClick={() => navigate('/project-4')} className='case-study-button'>Case Study</button>
+                            </div>
                         </div>
+                    </div>
+                </section>
+                <section className='contact-container'>
+                    <div className="contact-wrapper">
+
                     </div>
                 </section>
             </main>
