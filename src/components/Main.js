@@ -2,26 +2,13 @@ import React from 'react';
 import './Main.css'
 import { BsLinkedin, BsGithub, BsFacebook, BsStackOverflow, BsFillChatLeftTextFill } from 'react-icons/bs'
 import { useNavigate } from 'react-router-dom';
+import Navbar from './shared/Navbar/Navbar';
 const Main = () => {
 
     const navigate = useNavigate()
     return (
         <>
-            <nav>
-                <div className='logo-container'>
-                    <div className="logo">
-
-                    </div>
-                    <p className='name'>TORIKUL ISLAM</p>
-                </div>
-                <div className="navLinks">
-                    <a href="">HOME</a>
-                    <a href="">ABOUT</a>
-                    <a href="">PROJECT</a>
-                    <a href="">CONTACT</a>
-                    <a target='blank' href="https://drive.google.com/file/d/1yixxhzTJXkMvLhyyWtxX88osKB1tl_Sg/view"> <button className='resume-button'>CHECK RESUME</button></a>
-                </div>
-            </nav>
+            <Navbar />
             <main>
 
                 <header>
@@ -133,7 +120,22 @@ const Main = () => {
                 </section>
                 <section className='contact-container'>
                     <div className="contact-wrapper">
-
+                        <div className="contact-text">
+                            <h1>CONTACT</h1>
+                            <div className="line"></div>
+                            <p>Feel free to Contact me by submitting the form below and I will get back to you as soon as possible</p>
+                        </div>
+                        <div className="contact-form-container">
+                            <form action="">
+                                <label htmlFor="name">Name</label>
+                                <input type="text" placeholder='Enter Your Name' />
+                                <label htmlFor="email">Email</label>
+                                <input type="email" placeholder='Enter Your Email' />
+                                <label htmlFor="message">Message</label>
+                                <textarea name="message" placeholder='Enter Your Message' id="" cols="30" rows="10"></textarea>
+                                <button className='contact-submit-button' type='submit'>Submit</button>
+                            </form>
+                        </div>
                     </div>
                 </section>
             </main>
