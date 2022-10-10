@@ -53,22 +53,33 @@ const Main = () => {
                             I also like sharing content related to the stuff that I have learned over the years in Web Development so it can help other people of the Dev Community. Feel free to Connect or Follow me on my <a className='linkedin' href="https://www.linkedin.com/in/torikul1/">Linkedin</a> where I post useful content related to Web Development and Programming <br /> <br />
 
                             I'm open to Job opportunities where I can contribute, learn and grow. If you have a good opportunity that matches my skills and experience then don't hesitate to contact me.</p>
-                           <a href=""> <button className='contact-button'>CONTACT</button></a>
+                        <a href=""> <button className='contact-button'>CONTACT</button></a>
                     </div>
                     <div className='skills-container'>
                         <h1>MY SKILLS</h1>
-                       <div className="skill-buttons">
-                       <button>HTML</button>
-                        <button>CSS</button>
-                        <button>JavaScript</button>
-                        <button>Tailwind CSS</button>
-                        <button>React JS</button>
-                        <button>Node JS</button>
-                        <button>GitHub</button>
-                        <button>MongoDB</button>
-                        <button>Express JS</button>
-                        <button>Bootstrap</button>
-                       </div>
+                        <div className="skill-buttons">
+                            <button>HTML</button>
+                            <button>CSS</button>
+                            <button>JavaScript</button>
+                            <button>Tailwind CSS</button>
+                            <button>React JS</button>
+                            <button>Node JS</button>
+                            <button>GitHub</button>
+                            <button>MongoDB</button>
+                            <button>Express JS</button>
+                            <button>Bootstrap</button>
+                        </div>
+                    </div>
+                </section>
+
+                <section className='project-section'>
+                    <div className="project-content">
+                        <h1>PROJECTS</h1>
+                        <div className="line"></div>
+                        <p>Here you will find some of the personal and clients projects that I created with each project containing its own case study</p>
+                    </div>
+                    <div className="projects-wrapper">
+                            sdafa
                     </div>
                 </section>
             </main>
