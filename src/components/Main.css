@@ -1,6 +1,8 @@
 /* navbar end here */
 
-
+body{
+    max-width: 1700px;
+}
 header {
     width: 100%;
     height: calc(100vh - 80px);

@@ -3,6 +3,7 @@ import './Main.css'
 import { BsLinkedin, BsGithub, BsFacebook, BsStackOverflow, BsFillChatLeftTextFill } from 'react-icons/bs'
 import { useNavigate } from 'react-router-dom';
 import Navbar from './shared/Navbar/Navbar';
+import Footer from './shared/Footer/Footer';
 const Main = () => {
 
     const navigate = useNavigate()
@@ -139,6 +140,7 @@ const Main = () => {
                     </div>
                 </section>
             </main>
+            <Footer />
             <div className="chat">
                 <BsFillChatLeftTextFill className='chat-icon' />
             </div>
