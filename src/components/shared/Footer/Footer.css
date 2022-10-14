@@ -23,6 +23,8 @@ footer {
 }
 .name-container p {
     margin-left: 10px;
+    font-weight: 300;
+    letter-spacing: 1px;
 }
 .socials-container {
     width: 20%;
