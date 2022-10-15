@@ -1,5 +1,4 @@
 import React from 'react';
-import { BsGithub } from 'react-icons/bs';
 import Footer from '../shared/Footer/Footer';
 import Navbar from '../shared/Navbar/Navbar';
 import './Project1.css'
@@ -14,7 +13,7 @@ const Project1 = () => {
                         <div className='content'>
                             <h1>TOPGEAR PERFORM</h1>
                             <p>A Frontend focused Web Developer building the Frontend of Websites and Web Applications that leads to the success of the overall product</p>
-                            <button className='project-button'>Live Link</button>
+                            <a target='blank' href="https://topgearperformbd.web.app/">  <button className='project-button'>Live Link</button></a>
                         </div>
 
                     </div>
@@ -50,9 +49,9 @@ const Project1 = () => {
                     <div className="links">
                         <h2>See Live</h2>
                         <div className="live-links">
-                            <a href=""><button> <BsGithub />Client Code</button></a>
-                            <a href=""><button>Server Code</button></a>
-                            <a href=""><button>Live Link</button></a>
+                            <a target='blank' href="https://github.com/Arif11819/top-gear-perform-clients"><button>Client Code</button></a>
+                            <a target='blank' href=""><button>Server Code</button></a>
+                            <a target='blank' href="https://topgearperformbd.web.app/"><button>Live Link</button></a>
                         </div>
                     </div>
                 </section>

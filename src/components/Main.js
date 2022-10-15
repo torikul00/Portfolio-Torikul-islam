@@ -1,7 +1,7 @@
 import React from 'react';
 import './Main.css'
 import { BsLinkedin, BsGithub, BsFacebook, BsStackOverflow, BsFillChatLeftTextFill } from 'react-icons/bs'
-import { useNavigate } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import Navbar from './shared/Navbar/Navbar';
 import Footer from './shared/Footer/Footer';
 const Main = () => {
@@ -17,7 +17,7 @@ const Main = () => {
                         <div className='content'>
                             <h1>HEY, I'AM TORIKUL ISLAM</h1>
                             <p>A Frontend focused Web Developer building the Frontend of Websites and Web Applications that leads to the success of the overall product</p>
-                            <button className='project-button'>PROJECTS</button>
+                           <a href="#projects"> <button className='project-button'>PROJECTS</button></a>
                         </div>
                     </div>
                     <div className="social-icons">
@@ -27,7 +27,7 @@ const Main = () => {
                         <a target='blank' href="https://stackoverflow.com/users/18026868/torikul-islam">  <BsStackOverflow className='social' /></a>
                     </div>
                 </header>
-                <section className='about-container'>
+                <section id='about' className='about-container'>
                     <div className="about-content">
                         <h1>  ABOUT ME</h1>
                         <div className="line"></div>
@@ -63,7 +63,7 @@ const Main = () => {
                     </div>
                 </section>
 
-                <section className='project-section'>
+                <section id='projects' className='project-section'>
                     <div className="project-content">
                         <h1>PROJECTS</h1>
                         <div className="line"></div>
@@ -119,7 +119,7 @@ const Main = () => {
                         </div>
                     </div>
                 </section>
-                <section className='contact-container'>
+                <section id='contact' className='contact-container'>
                     <div className="contact-wrapper">
                         <div className="contact-text">
                             <h1>CONTACT</h1>
