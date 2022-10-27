@@ -1,9 +1,16 @@
 import React from 'react';
 import './Main.css'
 import { BsLinkedin, BsGithub, BsFacebook, BsStackOverflow, BsFillChatLeftTextFill } from 'react-icons/bs'
-import { Link, useNavigate } from 'react-router-dom';
+import {  useNavigate } from 'react-router-dom';
 import Navbar from './shared/Navbar/Navbar';
 import Footer from './shared/Footer/Footer';
+import 'aos/dist/aos.css';
+import aos from 'aos'
+
+aos.init({
+   duration: 700,
+   mirror: true
+})
 const Main = () => {
 
     const navigate = useNavigate()
@@ -17,7 +24,7 @@ const Main = () => {
                         <div className='content'>
                             <h1>HEY, I'AM TORIKUL ISLAM</h1>
                             <p>A Frontend focused Web Developer building the Frontend of Websites and Web Applications that leads to the success of the overall product</p>
-                           <a href="#projects"> <button className='project-button'>PROJECTS</button></a>
+                            <a href="#projects"> <button className='project-button'>PROJECTS</button></a>
                         </div>
                     </div>
                     <div className="social-icons">
@@ -44,7 +51,7 @@ const Main = () => {
                             I also like sharing content related to the stuff that I have learned over the years in Web Development so it can help other people of the Dev Community. Feel free to Connect or Follow me on my <a className='linkedin' href="https://www.linkedin.com/in/torikul1/">Linkedin</a> where I post useful content related to Web Development and Programming <br /> <br />
 
                             I'm open to Job opportunities where I can contribute, learn and grow. If you have a good opportunity that matches my skills and experience then don't hesitate to contact me.</p>
-                        <a href=""> <button className='contact-button'>CONTACT</button></a>
+                        <a href="#contact"> <button className='contact-button'>CONTACT</button></a>
                     </div>
                     <div className='skills-container'>
                         <h1>MY SKILLS</h1>
@@ -70,7 +77,7 @@ const Main = () => {
                         <p>Here you will find some of the personal and clients projects that I created with each project containing its own case study</p>
                     </div>
                     <div className="projects-wrapper">
-                        <div className="single-project">
+                        <div   data-aos="fade-right" className="single-project">
                             <img src="https://i.ibb.co/fq6pB0W/Mac-Book-Air-near-the-white-wall-Topgear.png" alt="" />
                         </div>
                         <div className="single-project-content">
@@ -83,7 +90,7 @@ const Main = () => {
                     </div>
 
                     <div className="projects-wrapper">
-                        <div className="single-project">
+                        <div  data-aos="fade-left" className="single-project">
                             <img src="https://i.ibb.co/fCF2TM9/Woman-using-her-laptop-in-the-office-Montage-car.png" alt="" />
                         </div>
                         <div className="single-project-content">
@@ -96,7 +103,7 @@ const Main = () => {
                     </div>
                     <div className="projects-wrapper">
                         <div className="single-project">
-                            <img src="https://i.ibb.co/5hqHSm0/Man-using-Acer-laptop-while-sitting-on-the-floor-Fruits-buddy.png" alt="" />
+                            <img  data-aos="fade-right" src="https://i.ibb.co/5hqHSm0/Man-using-Acer-laptop-while-sitting-on-the-floor-Fruits-buddy.png" alt="" />
                         </div>
                         <div className="single-project-content">
                             <div>
@@ -108,7 +115,7 @@ const Main = () => {
                     </div>
                     <div className="projects-wrapper">
                         <div className="single-project">
-                            <img src="https://i.ibb.co/L8fQ6dJ/Mac-Book-Air-near-the-white-wall-Electrical-galaxy.png" alt="" />
+                            <img  data-aos="fade-left" src="https://i.ibb.co/L8fQ6dJ/Mac-Book-Air-near-the-white-wall-Electrical-galaxy.png" alt="" />
                         </div>
                         <div className="single-project-content">
                             <div>
