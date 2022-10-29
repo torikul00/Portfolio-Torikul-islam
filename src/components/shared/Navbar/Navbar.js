@@ -1,18 +1,27 @@
 import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import './Navbar.css'
+import './toggle'
 const Navbar = () => {
 
     const [showProfilePic, setShowProfilePic] = useState(false)
     const navigate = useNavigate()
+    
     return (
         <>
             <nav>
                 <div className='logo-container'>
-                    <div  title='View Image' onClick={() => setShowProfilePic(true)} className="logo">
+                    <div title='View Image' onClick={() => setShowProfilePic(true)} className="logo">
 
                     </div>
                     <p className='name' onClick={() => navigate('/')}>TORIKUL ISLAM</p>
+                </div>
+                <div className="burger-menu">
+                    <div  id="nav-icon1">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
                 </div>
                 <div className="navLinks">
                     <Link to='/' >Home</Link>
