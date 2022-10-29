@@ -1,12 +1,20 @@
 import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import './Navbar.css'
-import './toggle'
+
+
+
+
+
 const Navbar = () => {
 
     const [showProfilePic, setShowProfilePic] = useState(false)
+    const [showMenu, setShowMenu] = useState(false)
     const navigate = useNavigate()
-    
+    function toggleClass() {
+        document.getElementById('nav-icon1').classList.toggle('open')
+    }
+
     return (
         <>
             <nav>
@@ -16,11 +24,11 @@ const Navbar = () => {
                     </div>
                     <p className='name' onClick={() => navigate('/')}>TORIKUL ISLAM</p>
                 </div>
-                <div className="burger-menu">
-                    <div  id="nav-icon1">
-                        <span></span>
-                        <span></span>
-                        <span></span>
+                <div onClick={()=>setShowMenu(!showMenu)} className="burger-menu">
+                    <div onClick={toggleClass} id="nav-icon1">
+                        <span className='span1'></span>
+                        <span className='span2'></span>
+                        <span className='span3'></span>
                     </div>
                 </div>
                 <div className="navLinks">
@@ -37,6 +45,9 @@ const Navbar = () => {
                         <img src="https://i.ibb.co/wJwBQy4/Torikul-Islam.jpg" alt="" />
                     </div>
                 </div>
+
+            </div>}
+            {showMenu ? null :  <div  data-aos="fade-right" className="burger-menu-container">
 
             </div>}
         </>

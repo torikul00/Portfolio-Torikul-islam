@@ -79,12 +79,25 @@ nav {
     left: -60px;
 }
 
+
 #nav-icon1.open span:nth-child(3) {
     top: 18px;
     -webkit-transform: rotate(-135deg);
     -moz-transform: rotate(-135deg);
     -o-transform: rotate(-135deg);
     transform: rotate(-135deg);
+}
+
+.burger-menu {
+    display: none;
+}
+
+.burger-menu-container {
+    width: 70%;
+    height: 100vh;
+    background-color: #288BA8;
+    z-index: 999;
+    position: fixed;
 }
 
 /* burger menu css end here */
@@ -171,5 +184,9 @@ nav {
 
     .navLinks {
         display: none;
+    }
+
+    .burger-menu {
+        display: bloCk;
     }
 }
