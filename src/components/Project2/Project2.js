@@ -24,11 +24,12 @@ const Project2 = () => {
                     </div>
                     <div className="project-details">
                         <h2>Project Overview</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, beatae velit? Fugiat voluptate, aspernatur laboriosam sint debitis illum distinctio recusandae deleniti culpa odio aperiam totam cum minus, magnam dolorem deserunt veniam. Voluptatum distinctio, eaque
+                        <p>Montage Car is inventory based website.where an admin can add their product and stored them.But a normal user can buy these products with Visa Card.
                             <br /> <br />
-                            accusantium, officiis amet exercitationem soluta excepturi a dolorum, recusandae voluptas sed velit? Sit optio recusandae minus. Cum facere iusto adipisci! Quod, dolore at deleniti quisquam
+                            A normal user can review on their products and all user reviews will show on reviews section.
                             <br /> <br />
-                            quis dolor quas dicta minima cupiditate? A impedit rerum nisi ipsum maiores, ipsa odit cupiditate, eius beatae, voluptatum velit earum temporibus magni! Temporibus dignissimos nobis cupiditate nulla accusantium velit ullam explicabo. Expedita, provident neque libero repellendus eveniet assumenda aut ad officia.</p>
+                            In blog page has some blogs about web development.an admin can make admin to another normal user ans also manage all products. for admin access please login with this emal and password , admin@gmail.com, pass: 123456
+                           </p>
                     </div>
                     <div className="tools-used">
                         <h2>Tools Used</h2>
@@ -36,13 +37,13 @@ const Project2 = () => {
                             <button>HTML</button>
                             <button>CSS</button>
                             <button>JavaScript</button>
-                            <button>Tailwind CSS</button>
                             <button>React JS</button>
                             <button>Node JS</button>
                             <button>GitHub</button>
                             <button>MongoDB</button>
                             <button>Express JS</button>
-                            <button>Bootstrap</button>
+                            <button>Tailwind CSS</button>
+                            <button>Stripe</button>
                         </div>
                     </div>
                     <div className="links">

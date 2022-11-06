@@ -25,11 +25,13 @@ const Project1 = () => {
                     </div>
                     <div className="project-details">
                         <h2>Project Overview</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, beatae velit? Fugiat voluptate, aspernatur laboriosam sint debitis illum distinctio recusandae deleniti culpa odio aperiam totam cum minus, magnam dolorem deserunt veniam. Voluptatum distinctio, eaque
+                        <p>Topgear Perform is performance evaluation based website.Where a user can do many tasks. A user can add their todo.This side has two role, admin role and normal user role.In ebooks feature user can buy books and from article feature user can read articles.
                             <br /> <br />
-                            accusantium, officiis amet exercitationem soluta excepturi a dolorum, recusandae voluptas sed velit? Sit optio recusandae minus. Cum facere iusto adipisci! Quod, dolore at deleniti quisquam
+                            A noraml user can add their tasks and also can chat with admin.
                             <br /> <br />
-                            quis dolor quas dicta minima cupiditate? A impedit rerum nisi ipsum maiores, ipsa odit cupiditate, eius beatae, voluptatum velit earum temporibus magni! Temporibus dignissimos nobis cupiditate nulla accusantium velit ullam explicabo. Expedita, provident neque libero repellendus eveniet assumenda aut ad officia.</p>
+                            An admin can delete a normal user and also chat with normal user.Admin also can check user tasks details.
+                           </p>
+
                     </div>
                     <div className="tools-used">
                         <h2>Tools Used</h2>
@@ -43,14 +45,14 @@ const Project1 = () => {
                             <button>GitHub</button>
                             <button>MongoDB</button>
                             <button>Express JS</button>
-                            <button>Bootstrap</button>
+                          
                         </div>
                     </div>
                     <div className="links">
                         <h2>See Live</h2>
                         <div className="live-links">
                             <a target='blank' href="https://github.com/Arif11819/top-gear-perform-clients"><button>Client Code</button></a>
-                            <a target='blank' href=""><button>Server Code</button></a>
+                            <a target='blank' href="https://github.com/Arif11819/top-gear-perform-server"><button>Server Code</button></a>
                             <a target='blank' href="https://topgearperformbd.web.app/"><button>Live Link</button></a>
                         </div>
                     </div>

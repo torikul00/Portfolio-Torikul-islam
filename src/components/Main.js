@@ -84,7 +84,7 @@ const Main = () => {
                         <div className="single-project-content">
                             <div>
                                 <h2>TopGear Perform</h2>
-                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum, ratione mollitia autem distinctio a culpa excepturi adipisci saepe est. Minus aliquam sit vitae cum commodi dicta minima sed distinctio temporibus velit suscipit cupiditate laudantium tempore rerum accusamus id aperiam deserunt enim dolor doloremque odit nostrum, obcaecati amet. Tenetur, vero alias.</p>
+                                <p>Topgear Perform is performance evaluation based website.Where a user can do many tasks. A user can add their todo.This side has two role, admin role and normal user role.In ebooks feature user can buy books and from article feature user can read articles.</p>
                                 <button onClick={() => navigate('/project-1')} className='case-study-button'>Case Study</button>
                             </div>
                         </div>
@@ -97,7 +97,8 @@ const Main = () => {
                         <div className="single-project-content">
                             <div>
                                 <h2>Montage Car</h2>
-                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum, ratione mollitia autem distinctio a culpa excepturi adipisci saepe est. Minus aliquam sit vitae cum commodi dicta minima sed distinctio temporibus velit suscipit cupiditate laudantium tempore rerum accusamus id aperiam deserunt enim dolor doloremque odit nostrum, obcaecati amet. Tenetur, vero alias.</p>
+                                <p>Montage Car is inventory based website.where an admin can add their product and stored them.But a normal user can buy these products with Visa Card.
+                                    A normal user can review on their products and all user reviews will show on reviews section.</p>
                                 <button onClick={() => navigate('/project-2')} className='case-study-button'>Case Study</button>
                             </div>
                         </div>
