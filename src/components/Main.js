@@ -33,7 +33,7 @@ const Main = () => {
                         <a target='blank' href="https://www.facebook.com/timutorikul">   <BsFacebook className='social' /></a>
                         <a target='blank' href="https://stackoverflow.com/users/18026868/torikul-islam">  <BsStackOverflow className='social' /></a>
                     </div>
-                   
+
                 </header>
                 <section id='about' className='about-container'>
                     <div className="about-content">

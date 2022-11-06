@@ -14,11 +14,9 @@ nav {
 
 /* burger menu css */
 
-#nav-icon1,
-#nav-icon2,
-#nav-icon3,
-#nav-icon4 {
-    width: 60px;
+#nav-icon1
+ {
+    width: 50px;
     height: 35px;
     position: relative;
     margin: 50px auto;
@@ -33,15 +31,13 @@ nav {
     cursor: pointer;
 }
 
-#nav-icon1 span,
-#nav-icon3 span,
-#nav-icon4 span {
+#nav-icon1 span {
     display: block;
     position: absolute;
-    height: 7px;
+    height: 5px;
     width: 100%;
     background: #288BA8;
-    border-radius: 9px;
+    border-radius: 5px;
     opacity: 1;
     left: 0;
     -webkit-transform: rotate(0deg);

@@ -20,8 +20,6 @@ header {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-
-
 }
 
 .content {
@@ -76,6 +74,7 @@ header {
     justify-content: space-evenly;
     align-items: center;
     flex-direction: column;
+    z-index: 999;
 
 
 }
@@ -241,9 +240,9 @@ header {
 
 .projects-wrapper {
     width: 100%;
-    padding: 20px 100px;
+    padding: 20px ;
     display: flex;
-
+    overflow: hidden;
 
 }
 
@@ -382,52 +381,70 @@ textarea:focus {
         font-size: 40px;
         text-align: center;
     }
-    .about-content{
+
+    .about-content {
         width: 90%;
-   
+
     }
+
     .about-container {
         padding: 50px;
     }
+
     .social-icons {
         display: none;
     }
-    .know-me-container{
+
+    .know-me-container {
         flex-direction: column;
     }
-    .know-me-desc{
+
+    .know-me-desc {
         width: 90%;
         text-align: center;
     }
+
     .know-me-desc p {
         text-align: center;
     }
-    .skills-container{
+
+    .skills-container {
         width: 100%;
         padding: 0px;
     }
-    .contact-button{
+
+    .contact-button {
         margin-bottom: 50px;
     }
-    .projects-wrapper{
+
+    .projects-wrapper {
         flex-direction: column;
     }
-    .single-project{
+
+    .single-project {
         width: 100%;
- 
+
     }
-   .single-project-content {
-    width: 100%;
-    padding: 20px;
-   }
+
+    .single-project-content {
+        width: 100%;
+        padding: 20px;
+    }
+
     .projects-wrapper {
         padding: 0px;
     }
-    .contact-text{
+
+    .contact-text {
         width: 90%;
     }
-    .contact-form-container{
+
+    .contact-form-container {
         width: 90%;
+    }
+
+    .chat {
+        display: none;
     }
 }
 
