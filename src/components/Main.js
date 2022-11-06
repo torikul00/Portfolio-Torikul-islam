@@ -1,15 +1,15 @@
 import React from 'react';
 import './Main.css'
 import { BsLinkedin, BsGithub, BsFacebook, BsStackOverflow, BsFillChatLeftTextFill } from 'react-icons/bs'
-import {  useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import Navbar from './shared/Navbar/Navbar';
 import Footer from './shared/Footer/Footer';
 import 'aos/dist/aos.css';
 import aos from 'aos'
 
 aos.init({
-   duration: 700,
-   mirror: true
+    duration: 700,
+    mirror: true
 })
 const Main = () => {
 
@@ -33,6 +33,7 @@ const Main = () => {
                         <a target='blank' href="https://www.facebook.com/timutorikul">   <BsFacebook className='social' /></a>
                         <a target='blank' href="https://stackoverflow.com/users/18026868/torikul-islam">  <BsStackOverflow className='social' /></a>
                     </div>
+                   
                 </header>
                 <section id='about' className='about-container'>
                     <div className="about-content">
@@ -77,7 +78,7 @@ const Main = () => {
                         <p>Here you will find some of the personal and clients projects that I created with each project containing its own case study</p>
                     </div>
                     <div className="projects-wrapper">
-                        <div   data-aos="fade-right" className="single-project">
+                        <div data-aos="fade-right" className="single-project">
                             <img src="https://i.ibb.co/fq6pB0W/Mac-Book-Air-near-the-white-wall-Topgear.png" alt="" />
                         </div>
                         <div className="single-project-content">
@@ -90,7 +91,7 @@ const Main = () => {
                     </div>
 
                     <div className="projects-wrapper">
-                        <div  data-aos="fade-left" className="single-project">
+                        <div data-aos="fade-left" className="single-project">
                             <img src="https://i.ibb.co/fCF2TM9/Woman-using-her-laptop-in-the-office-Montage-car.png" alt="" />
                         </div>
                         <div className="single-project-content">
@@ -103,7 +104,7 @@ const Main = () => {
                     </div>
                     <div className="projects-wrapper">
                         <div className="single-project">
-                            <img  data-aos="fade-right" src="https://i.ibb.co/5hqHSm0/Man-using-Acer-laptop-while-sitting-on-the-floor-Fruits-buddy.png" alt="" />
+                            <img data-aos="fade-right" src="https://i.ibb.co/5hqHSm0/Man-using-Acer-laptop-while-sitting-on-the-floor-Fruits-buddy.png" alt="" />
                         </div>
                         <div className="single-project-content">
                             <div>
@@ -115,7 +116,7 @@ const Main = () => {
                     </div>
                     <div className="projects-wrapper">
                         <div className="single-project">
-                            <img  data-aos="fade-left" src="https://i.ibb.co/L8fQ6dJ/Mac-Book-Air-near-the-white-wall-Electrical-galaxy.png" alt="" />
+                            <img data-aos="fade-left" src="https://i.ibb.co/L8fQ6dJ/Mac-Book-Air-near-the-white-wall-Electrical-galaxy.png" alt="" />
                         </div>
                         <div className="single-project-content">
                             <div>

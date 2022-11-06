@@ -24,7 +24,7 @@ const Navbar = () => {
                     </div>
                     <p className='name' onClick={() => navigate('/')}>TORIKUL ISLAM</p>
                 </div>
-                <div onClick={()=>setShowMenu(!showMenu)} className="burger-menu">
+                <div onClick={() => setShowMenu(!showMenu)} className="burger-menu">
                     <div onClick={toggleClass} id="nav-icon1">
                         <span className='span1'></span>
                         <span className='span2'></span>
@@ -47,9 +47,9 @@ const Navbar = () => {
                 </div>
 
             </div>}
-            {showMenu ? null :  <div  data-aos="fade-right" className="burger-menu-container">
+            {showMenu ? <div data-aos="fade-right" className="burger-menu-container">
 
-            </div>}
+            </div> : null}
         </>
     )
 };

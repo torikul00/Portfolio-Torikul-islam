@@ -370,3 +370,62 @@ textarea:focus {
     font-size: 16px;
     cursor: pointer;
 }
+
+/*  responsive code start form here */
+
+@media only screen and (max-width : 600px) {
+    .content {
+        width: 90%;
+    }
+
+    .content h1 {
+        font-size: 40px;
+        text-align: center;
+    }
+    .about-content{
+        width: 90%;
+   
+    }
+    .about-container {
+        padding: 50px;
+    }
+    .social-icons {
+        display: none;
+    }
+    .know-me-container{
+        flex-direction: column;
+    }
+    .know-me-desc{
+        width: 90%;
+        text-align: center;
+    }
+    .know-me-desc p {
+        text-align: center;
+    }
+    .skills-container{
+        width: 100%;
+        padding: 0px;
+    }
+    .contact-button{
+        margin-bottom: 50px;
+    }
+    .projects-wrapper{
+        flex-direction: column;
+    }
+    .single-project{
+        width: 100%;
+ 
+    }
+   .single-project-content {
+    width: 100%;
+    padding: 20px;
+   }
+    .projects-wrapper {
+        padding: 0px;
+    }
+}
+
+
+
+
+/* responsive code ends here */
