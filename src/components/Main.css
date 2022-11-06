@@ -423,6 +423,12 @@ textarea:focus {
     .projects-wrapper {
         padding: 0px;
     }
+    .contact-text{
+        width: 90%;
+    }
+    .contact-form-container{
+        width: 90%;
+    }
 }
 
 
