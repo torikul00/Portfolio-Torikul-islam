@@ -4,6 +4,9 @@ import Navbar from '../shared/Navbar/Navbar';
 import './Project1.css'
 
 const Project1 = () => {
+
+
+   
     return (
         <>
             <div>
@@ -30,7 +33,7 @@ const Project1 = () => {
                             A noraml user can add their tasks and also can chat with admin.
                             <br /> <br />
                             An admin can delete a normal user and also chat with normal user.Admin also can check user tasks details.
-                           </p>
+                        </p>
 
                     </div>
                     <div className="tools-used">
@@ -45,7 +48,7 @@ const Project1 = () => {
                             <button>GitHub</button>
                             <button>MongoDB</button>
                             <button>Express JS</button>
-                          
+
                         </div>
                     </div>
                     <div className="links">

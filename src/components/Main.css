@@ -397,6 +397,7 @@ textarea:focus {
 
     .know-me-container {
         flex-direction: column;
+        padding: 40px 20px;
     }
 
     .know-me-desc {
@@ -443,9 +444,7 @@ textarea:focus {
         width: 90%;
     }
 
-    .chat {
-        display: none;
-    }
+    
 }
 
 

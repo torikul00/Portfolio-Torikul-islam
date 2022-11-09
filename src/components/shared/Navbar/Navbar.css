@@ -90,10 +90,11 @@ nav {
 
 .burger-menu-container {
     width: 70%;
-    height: 100vh;
+    padding: 20px;
     background-color: #288BA8;
     z-index: 999;
     position: fixed;
+    display: none;
 }
 
 /* burger menu css end here */
@@ -171,11 +172,21 @@ nav {
     font-weight: 500;
     font-size: 17px;
 }
+.burger-menu-container a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    margin-top: 30px;
+    margin-left: 20px;
+}
 
 @media only screen and (max-width: 600px) {
 
     nav {
         padding: 0px 20px;
+    }
+    .burger-menu-container{
+        display: block;
     }
 
     .navLinks {
@@ -185,4 +196,10 @@ nav {
     .burger-menu {
         display: bloCk;
     }
+    .resume-button{
+        background-color: white;
+        color: #288BA8;
+
+    }
+  
 }

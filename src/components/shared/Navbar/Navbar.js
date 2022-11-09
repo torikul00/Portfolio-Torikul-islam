@@ -11,8 +11,14 @@ const Navbar = () => {
     const [showProfilePic, setShowProfilePic] = useState(false)
     const [showMenu, setShowMenu] = useState(false)
     const navigate = useNavigate()
-    function toggleClass() {
-        document.getElementById('nav-icon1').classList.toggle('open')
+    function toggleClass(boolean) {
+        if (boolean === true) {
+
+            document.getElementById('nav-icon1').classList.toggle('open')
+        }
+        if (boolean === false) {
+           
+        }
     }
 
     return (
@@ -25,7 +31,7 @@ const Navbar = () => {
                     <p className='name' onClick={() => navigate('/')}>TORIKUL ISLAM</p>
                 </div>
                 <div onClick={() => setShowMenu(!showMenu)} className="burger-menu">
-                    <div onClick={toggleClass} id="nav-icon1">
+                    <div onClick={() => toggleClass(true)} id="nav-icon1">
                         <span className='span1'></span>
                         <span className='span2'></span>
                         <span className='span3'></span>
@@ -49,6 +55,11 @@ const Navbar = () => {
             </div>}
             {showMenu ? <div data-aos="fade-right" className="burger-menu-container">
 
+                <Link onClick={() => setShowMenu(false)} to='/' >Home</Link>
+                <a onAuxClick={() => toggleClass(false)} onClick={() => setShowMenu(false)} href="#about">ABOUT</a>
+                <a onClick={() => setShowMenu(false)} href="#projects">PROJECT</a>
+                <a onClick={() => setShowMenu(false)} href="#contact">CONTACT</a>
+                <a onClick={() => setShowMenu(false)} target='blank' href="https://drive.google.com/file/d/1yixxhzTJXkMvLhyyWtxX88osKB1tl_Sg/view"> <button className='resume-button'>CHECK RESUME</button></a>
             </div> : null}
         </>
     )

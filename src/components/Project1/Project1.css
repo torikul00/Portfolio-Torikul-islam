@@ -67,3 +67,19 @@
 .live-links {
     margin-top: 20px;
 }
+
+@media only screen and (max-width:600px) {
+    
+    .project-details{
+        width: 90%;
+    }
+    .tools-used{
+        width: 90%;
+    }
+    .links{
+        width: 90%;
+    }
+    .links button {
+        margin-top: 10px;
+    }
+}
